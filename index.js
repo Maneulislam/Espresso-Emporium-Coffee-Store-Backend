@@ -99,3 +99,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
 });
+// Add this at the end of index.js
+module.exports = app;
